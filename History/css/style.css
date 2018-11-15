@@ -1,0 +1,131 @@
+body {
+	position: relative;
+	background-color: #F9E79F;
+	background-repeat: no repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.button {
+	background-color: #F5B041;
+	color: black;
+	font-family: georgian;
+	padding: 10px 25px;
+	border: 2px black solid;
+}
+
+.button:hover {
+	background: white;
+}
+
+#main-menu {
+	margin: 50px;
+	padding: 3px;
+	font-family: wide latin;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6,1fr);
+}
+
+.showcase {
+	background-image: url(../images/food2.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	text-align: center;
+	font-family: bodoni mt black;
+	font-size: 50px;
+	color: black;
+}
+
+.box > div{
+	padding: 100px;
+	border: solid;
+}
+
+.box {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+}
+
+.box1 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	font-size: 25px;
+	color: black;
+	font-family: cooper black;
+}
+
+.box2 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	color: black;
+	font-size: 20px;
+	font-family: cooper black;
+}
+
+.box3 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	font-size: 25px;
+	color: black;
+}
+
+.box4 {
+	grid-column: 4/5;
+	grid-row: 1/2;
+	font-size: 20px;
+	color: black;
+}
+
+.main-header {
+	margin: 10px;
+	padding: 150px;
+	background-image: url(../images/first.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #f30e0e;
+	text-align: center;
+	font-family: bodoni mt black;
+	font-size: 50px;
+	color: white;
+}
+
+.paragraph {
+	margin: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 100px;
+	background-image: url(../images/second.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #f30e0e;
+	text-align: center;
+	font-family: bodoni mt black;
+	font-size: 50px;
+	color: white;
+}
+
+div.box1 {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
+
+div.box2 {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
+
+div.last {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}

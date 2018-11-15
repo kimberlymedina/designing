@@ -1,0 +1,136 @@
+.a {
+	text-decoration: none;
+}
+
+body {
+	position: relative;
+	background-color: #F9E79F;
+	background-repeat: no repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.button {
+	background-color: #F4A460;
+	color: black;
+	padding: 10px 25px;
+	border: 2px black solid;
+}
+
+.button:hover {
+	background: white;
+}
+
+#main-menu {
+	margin: 50px;
+	padding: 3px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6,1fr);
+}
+
+.main-header {
+	margin: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	background: #24FFEE;
+	background-repeat: no repeat;
+	background-size: cover;
+	text-align: center;
+	font-family: bodoni mt black;
+	font-size: 50px;
+	color: black;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-repeat: no repeat;
+}
+.grid-item1 {
+	background-image: url(../images/Kimberly.jpg);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 230px;
+	font-size: 30px;
+	color: #FCFF24;
+	text-align: center;
+	background-repeat: no repeat;
+	background-size: cover;
+	margin: 10px;
+}
+
+.grid-item2 {
+	background-image: url(../images/Mhay.jpg);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 230px;
+	font-size: 30px;
+	text-align: center;
+	color: #FCFF24;
+	background-repeat: no repeat;
+	background-size: cover;
+	margin: 10px;
+}
+
+.grid-item3 {
+	background-image: url(../images/princess.jpg);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 230px;
+	font-size: 30px;
+	color: #FCFF24;
+	text-align: center;
+	background-repeat: no repeat;
+	background-size: cover;
+	margin: 10px;
+}
+
+.grid-item4 {
+	background-image: url(../images/caitlin.jpg);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 230px;
+	font-size: 30px;
+	color: #FCFF24;
+	text-align: center;
+	background-repeat: no repeat;
+	background-size: cover;
+	margin: 10px;
+}
+
+.grid-item5 {
+	background-image: url(../images/shaniah.jpg);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 230px;
+	font-size: 30px;
+	color: #FCFF24;
+	text-align: center;
+	background-repeat: no repeat;
+	background-size: cover;
+	margin: 10px;
+}
+
+div.box1 {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
+
+div.box2 {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
+
+div.last {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
+

@@ -1,0 +1,107 @@
+.a {
+	text-decoration: none;
+}
+
+body {
+	position: relative;
+	background-color: #F9E79F;
+	background-repeat: no repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.button {
+	background-color: #F4A460;
+	color: black;
+	font-family: georgian;
+	padding: 10px 25px;;
+	border: 2px black solid;
+}
+
+.button:hover {
+	background: white;
+}
+
+#main-menu {
+	margin: 50px;
+	padding: 3px;
+	font-family: wide latin;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(6,1fr);
+}
+
+.main-header {
+	margin: 50px;
+	padding: 10px;
+	background: #24FFEE;
+	background-repeat: no repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #f30e0e;
+	text-align: center;
+	font-family: bodoni mt black;
+	font-size: 50px;
+	color: #1A47F1;
+}
+
+div.article {
+	text-align: left;
+	font-family: bodoni mt black;
+	font-size: 30px;
+	background: red;
+	background-image: linear-gradient(red, yellow);
+}
+
+div.main {
+	font-family: cooper black;
+	font-size: 50px;
+	text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img-container {
+	border: 5px black solid;
+    width: 33.33%;
+	text-align: center;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.show {
+	font-family: verdana;
+	font-size: 20px;
+	background-color: #F5B041;
+	text-align: center;
+}
+
+div.box1 {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	margin-top: 10px;
+	background: #A9A9A9;
+}
+
+div.box2 {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
+
+div.last {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}

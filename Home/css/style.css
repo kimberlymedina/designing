@@ -1,0 +1,105 @@
+.a {
+	text-decoration: none;
+}
+
+body {
+	position: relative;
+	background-color: white;
+	background-repeat: no repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: gray;
+	background-image: linear-gradient(gray, yellow);
+}
+
+.button {
+	background-color: #F4A460;
+	color: black;
+	font-family: georgian;
+	padding: 10px 25px;
+	border: 2px black solid;
+}
+
+.button:hover {
+	background: white;
+}
+
+#main-menu {
+	margin: 50px;
+	padding: 3px;
+	font-family: wide latin;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6,1fr);
+}
+
+.showcase {
+	margin: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 200px;
+	border: 10px green solid;
+	background-image: url(../images/food14.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #f30e0e;
+	text-align: center;
+	font-family: bodoni mt black;
+	font-size: 50px;
+	color: white;
+}
+
+div.main {
+	text-align: center;
+	font-family: bodoni mt black;
+	font-size: 80px;
+}
+
+div.main:hover {
+	background: white;
+}
+
+div.gallery {
+	text-align: center;
+	padding: 50px;
+}
+
+
+div.article {
+	text-align: left;
+	font-family: bodoni mt black;
+	font-size: 50px;
+    height: 100px;
+    background-color: red;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+div.desc {
+	text-align: center;
+	font-family: bookman old style;
+	text-decoration: bold;
+	font-size: 30px;
+}
+
+div.box1 {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
+
+div.box2 {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
+
+div.last {
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+	background: #A9A9A9;
+}
